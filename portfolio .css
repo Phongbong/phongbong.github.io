@@ -375,90 +375,20 @@ label{
     text-align: right;
 }
 
-@media (max-width: 1024px) {
-    .home-text h2, .home-text p {
-        margin-left: 100px;
-    }
-
-    .home-pic {
-        margin-right: 100px;
-    }
-
-    .pic {
-        height: 400px;
-        width: 400px;
-    }
-
-    .form-container {
-        margin-right: 100px;
+@media (max-width: 1200px) {
+    html {
+        font-size: 1.5vw;
     }
 }
 
-/* Pieniä tabletteja ja suuria kännyköitä (leveys 600px-768px) */
-@media (max-width: 768px) {
-    .home-text h2, .home-text p {
-        margin-left: 50px;
-    }
-
-    .home-pic {
-        margin-right: 50px;
-    }
-
-    .pic {
-        height: 350px;
-        width: 350px;
-    }
-
-    .form-container {
-        margin-right: 50px;
-    }
-
-    .about-left {
-        margin-left: 50px;
-    }
-
-    .about-right {
-        max-width: 90%;
+@media (max-width: 800px) {
+    html {
+        font-size: 2vw;
     }
 }
 
-/* Kännykät (leveys alle 600px) */
 @media (max-width: 600px) {
-    nav, .header-right, .header-left, .arrow {
-        display: block;
-        text-align: center;
-    }
-
-    .home-text h2, .home-text p, .portfolio-h1, .about-left, .form-container, .about-right, #contact-text {
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .home-pic, .pic {
-        display: block;
-        margin: 0 auto;
-        height: 300px;
-        width: 300px;
-    }
-
-    .pic-2 {
-        height: 300px;
-        width: 150px;
-    }
-
-    .portfolio-h1 {
-        margin-top: 100px;
-    }
-
-    .image-text {
-        margin-right: 15px;
-    }
-
-    .form-container {
-        padding: 20px;
-    }
-
-    .row {
-        grid-template-columns: 1fr;
+    html {
+        font-size: 2.5vw;
     }
 }
