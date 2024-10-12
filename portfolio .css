@@ -375,20 +375,130 @@ label{
     text-align: right;
 }
 
-@media (max-width: 1200px) {
-    html {
-        font-size: 1.5vw;
+@media (max-width: 1024px) {
+    .pic {
+        height: 350px;
+        width: 350px;
+    }
+
+    .home-text h2 {
+        font-size: 25px;
+        margin-left: 120px;
+    }
+
+    .home-text p {
+        font-size: 16px;
+        margin-left: 110px;
+    }
+
+    .home-pic {
+        margin-right: 120px;
+    }
+
+    .pic-2 {
+        height: 400px;
+        width: 200px;
+    }
+
+    .portfolio-h1 {
+        margin-left: 150px;
+    }
+
+    .form-container {
+        margin-right: 150px;
+    }
+
+    #contact-text p, #contact-text h2 {
+        margin-left: 120px;
+    }
+
+    .arrow {
+        right: 50px;
     }
 }
 
-@media (max-width: 800px) {
-    html {
-        font-size: 2vw;
+/* Mobile (600px - 768px) */
+@media (max-width: 768px) {
+    .pic {
+        height: 250px;
+        width: 250px;
+    }
+
+    .home-text h2 {
+        font-size: 22px;
+        margin-left: 100px;
+    }
+
+    .home-text p {
+        font-size: 14px;
+        margin-left: 90px;
+    }
+
+    .home-pic {
+        margin-right: 100px;
+    }
+
+    .pic-2 {
+        height: 300px;
+        width: 150px;
+    }
+
+    .portfolio-h1 {
+        margin-left: 120px;
+    }
+
+    .form-container {
+        margin-right: 100px;
+    }
+
+    #contact-text p, #contact-text h2 {
+        margin-left: 100px;
+    }
+
+    .arrow {
+        right: 30px;
     }
 }
 
+/* Mobile (alle 600px) */
 @media (max-width: 600px) {
-    html {
-        font-size: 2.5vw;
+    .pic {
+        height: 200px;
+        width: 200px;
+    }
+
+    .home-text h2 {
+        font-size: 18px;
+        margin-left: 80px;
+    }
+
+    .home-text p {
+        font-size: 12px;
+        margin-left: 70px;
+    }
+
+    .home-pic {
+        margin-right: 80px;
+    }
+
+    .pic-2 {
+        height: 250px;
+        width: 120px;
+    }
+
+    .portfolio-h1 {
+        margin-left: 90px;
+    }
+
+    .form-container {
+        margin-right: 80px;
+    }
+
+    #contact-text p, #contact-text h2 {
+        margin-left: 80px;
+    }
+
+    .arrow {
+        right: 20px;
     }
 }
