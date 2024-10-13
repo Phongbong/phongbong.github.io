@@ -374,3 +374,133 @@ label{
     text-align: right;
 }
 
+.header-right-mobile{
+    display: none;
+}
+
+/* mobile */
+
+@media (max-width: 1000px) {
+     .home-text{
+        display: inline-block;
+        text-align: center;
+        max-width: 80%;
+        margin-top: 20px;
+    }
+
+    .home-text h2, .home-text p {
+        margin-left: 0; 
+        padding: 0 20px;
+    }
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+.home-text, .home-pic {
+    max-width: 90%;           
+    margin: 0 auto;            
+}
+
+.pic {
+    width: 100%;                
+    height: auto;              
+}
+
+.header-right{
+    display: none;
+}
+
+.header-left{
+    padding: 0;
+}
+
+ul li ul.dropdown li {
+    margin-top: 0; 
+    padding: 0;
+}
+
+ul li ul.dropdown {
+    margin: 0; 
+    padding: 0; 
+}
+
+.header-right-mobile{
+    display: block;
+}
+
+.header-left ul{
+    gap: 1px;
+}
+
+.arrow{
+    display: none;
+}
+
+.portfolio-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 0;
+}
+
+ .portfolio-page h1{
+    display: inline-block;
+    max-width: 50%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.pic-2, .hover-text{
+    margin: 20px;
+}
+
+section .about-left{
+    margin: 0;
+}
+
+section .about-right{
+    margin: 0;
+}
+
+#contact-text{
+    padding:0;
+    text-align: center;
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+}
+
+#contact-text p, #contact-text h2{
+    margin: 0;
+}
+
+.form-container{
+    margin: 0;
+    padding: 10%;
+}
+
+.row{
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row div{
+    width: 100%;
+    margin-right: 0;
+}
+
+.row p{
+    margin-right: 32%;
+}
+
+.send-button{
+    width: 100%;
+}
+
+
+}
